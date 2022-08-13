@@ -1,0 +1,142 @@
+
+.center {
+	text-align: center;
+}
+.contactpage{
+    padding: 80px;
+    background: #fff;
+	
+}
+
+.contact-info{
+	h2 {
+		margin-bottom: 12px;
+		font-size: 36px;
+		font-weight: 800;
+	}
+	.form-control{
+		border: 1px  #ced4da;
+		background-color: #f2f2f2;
+		height: calc(2.5em + .75rem + 2px);
+	}
+	.form-control:focus{
+		border: 1px solid #f79e02;
+		box-shadow: 0 0 0 0rem #fff;
+	}
+	textarea.form-control {
+		height: auto!important;
+	}
+}
+
+
+.buttoncolor{
+	color: #fff;
+	font-weight: 900;
+    background-color: #f79e02;
+    border-color: #f79e02;
+}
+.buttoncolor:hover, .buttoncolor:active,  .buttoncolor:not(:disabled):not(.disabled):active{
+	background-color: #f79e02;
+    border-color: #f79e02;
+}
+
+//  @media only screen and (max-width: 767px) {
+//  	ul li .icon {
+// 			width: 45px;
+// 			border-radius: 3px;
+// 			position: absolute;
+// 			text-align: center;
+// 			left: 0;
+// 			font-size: 20px;
+// 			-webkit-transition: 0.5s;
+// 			transition: 0.5s;
+// 			top: 0;
+// 			i{
+// 				width: 45px;
+				
+// 			}
+// 		}
+
+// }
+// @media only screen and (min-width: 576px) and (max-width: 767px) {
+// 	ul li .icon {
+// 			width: 55px;
+		
+// 			border-radius: 3px;
+// 			position: absolute;
+// 			text-align: center;
+// 			left: 0;
+// 			font-size: 50px;
+// 			-webkit-transition: 0.5s;
+// 			transition: 0.5s;
+// 			top: 0;
+// 			i{
+// 				width: 55px;
+				
+// 			}
+// 		}
+// }
+
+// @media only screen and (min-width: 768px) and (max-width: 991px) {
+// 	ul li .icon {
+// 			width: 65px;
+			
+// 			border-radius: 3px;
+// 			position: absolute;
+// 			text-align: center;
+// 			left: 0;
+// 			font-size: 60px;
+// 			-webkit-transition: 0.5s;
+// 			transition: 0.5s;
+// 			top: 0;
+// 			i{
+// 				width: 65px;
+				
+// 			}
+// 		}
+// }
+
+// Styles for FAQ
+.ques{
+    color: hsl(240, 6%, 50%);
+	padding: 15px;
+    color: #000;
+    background-color: #f2f2f2;
+}
+.questions span{
+    float: right;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.ans{
+    display: none;
+    color: hsl(240, 6%, 50%);
+    -webkit-transition: all 1s;
+    transition: all 1s;
+	padding: 15px;
+}
+.ques_active{
+    color: #fff;
+    font-weight: 700;
+	background-color: #1b9ce5;
+}
+// #1363aa #3ea5ce
+
+// #0074e1 #1b9ce5 #6cdaee #f79e02
+
+.ans_active{
+    display: block;
+    padding-right: 25px;
+    padding-top: 10px;
+    
+}
+.arrow{
+    transform: rotate(180deg);
+}
+.close{
+    transition: all 0.5s ease;
+	padding: 10px;
+}
+.button{
+    cursor: pointer;
+}

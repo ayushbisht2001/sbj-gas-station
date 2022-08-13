@@ -1,0 +1,71 @@
+// About banner section .........................
+
+.about-banner {
+    background-color: #f4f4f4;
+    min-height: 300px;
+    width: 100%;
+    height: auto;  
+
+}
+
+
+.animate-box{    
+    position: relative;
+    float: right;
+    margin-top : 40px;  
+}
+
+
+ .about-body{
+     width: 100%;
+     margin: auto !important;
+ }
+
+ 
+.animate3-box{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto !important;
+    padding: auto !important;
+    margin-top : 40px; 
+    width: 100%;
+    height: 100%; 
+}
+
+
+.animate3-box  svg{
+    margin: auto !important;
+    
+}
+
+
+
+// .............................................
+
+
+
+// About Page body .......................
+
+
+
+// ..........................................
+
+.badge-card{
+    position: relative;
+    width: auto !important;
+    height: auto !important;
+    border-color: transparent !important;
+}
+
+.about-badge{
+    width : 40% !important;
+    height: 50% !important;
+    object-fit: fill;
+    border-style: none !important;
+    border-color:  transparent !important;
+     
+}
+
+ 

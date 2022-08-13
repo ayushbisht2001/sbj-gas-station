@@ -1,0 +1,44 @@
+* {
+  
+  box-sizing: border-box !important;
+  
+}
+
+body {
+  font-family: 'Nunito', sans-serif!important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',   monospace !important;
+}
+
+:root{
+
+  --font-size-h : 40px ;
+  --font-size-p : 16px;
+}
+
+
+h1{
+  font-size: var(--font-size-h) !important;
+  
+}
+
+p{
+  font-size: var(--font-size-p) !important; 
+}
+
+@media (max-width : 500px) {
+
+  :root{
+    --font-size-h : 30px !important;
+    --font-size-p : 13px;
+  }
+  .imglogo{
+    max-width: 100%;
+    height: auto;
+  }
+}

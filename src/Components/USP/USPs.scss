@@ -1,0 +1,22 @@
+
+.usp-img{
+    width: 100% !important;  
+    height: 100% !important;  
+    max-height: 200px !important;
+    object-fit : fill !important;
+    margin : auto;
+    // background-size: contain !important;
+    border-radius: 20px !important;
+}
+
+.usp-card{
+    position: relative;
+    width: auto;
+    height: 100% !important;
+    margin: auto;
+    border-style: none !important;
+    border-radius: 20px;
+    max-width: 350px;
+    border-radius:  20px !important;
+    box-shadow: 10px 10px 10px rgb(124, 123, 122);
+}

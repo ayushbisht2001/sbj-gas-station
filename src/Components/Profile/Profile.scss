@@ -1,0 +1,342 @@
+// Profile card styling 
+
+.profile-card{
+    position: relative;
+    // margin : auto;    
+    width: 100% !important;
+    // background-color: #181a1b !important;
+    height: auto !important;
+    color : black;
+    background-color: #ffffff !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill-opacity= '1' stroke-opacity='0.4' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%2329ffff' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg  fill='%230328ff'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    box-shadow: 10px 10px 10px #6093f369 , -10px 10px 10px #6093f369 ;
+    // background-size: cover;
+}
+
+.profile-avatar{
+    display: inline-block;
+    margin: auto;
+    margin-top : 10px;
+    width : 100px !important;
+    height : 100px;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: #138496;
+}
+
+.profile-card .card-body{
+    margin : auto;
+    text-align: center;
+}
+.profile-card .card-body .list-inline{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly !important;
+    align-items: center;
+    width: 100% !important;
+    height: auto;
+    margin-top : 40px;
+}
+
+.profile-card .card-footer{
+    height: auto !important;
+    // background-color: #195c9f ;
+    // overflow: hidden;
+}
+.card-footer .list-inline{
+    display: inline-grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 40px;
+    justify-content:space-evenly ;
+    width: 100%;
+    height: auto !important;
+
+}
+.card-footer .list-inline .social-account {
+    // display: inline-block;
+    // background-color: aqua !important;
+    // width: auto;
+    height: 100% !important;
+    // min-height: 30px;
+    // color: aqua !important;
+}
+
+.card-footer .list-inline .social-account .fab{
+    
+    width: 100% !important;
+    text-align: center;
+    border-radius: 0;
+    height: 100%;
+}
+
+
+@media (max-width : 769px)
+{
+    .profile-card-col{
+        
+        // padding : 10px;                
+        width : 100%;
+
+    }
+
+}
+
+@media (max-width : 600px)
+{
+.profile-card .card-body .list-inline{
+    align-items: flex-start !important;    
+    justify-content: flex-start !important;
+    text-align: left !important;    
+}
+
+}
+
+// ............................
+
+
+
+
+// Profile Detail styling ............................
+
+.purchase-root{
+   
+    position: relative;    
+    max-width: 90% !important;     
+    height: auto;
+    color : white;
+    background-color: #181a1b !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23574f06' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23ffb805'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    // background-size: cover;
+     width: 100%;
+     margin: 20px auto 20px auto;
+}
+
+.purchase-list{
+    background-color: #ffc107 !important;
+}
+.purchase-list .purchase-subroot-list .purchase-sublist{
+    background-color: #050005;
+    height: auto !important;
+}
+.purchase-list .purchase-subroot-list .purchase-sublist:nth-child(1) > ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.purchase-list .purchase-subroot-list .purchase-sublist:nth-child(1) > ul li{
+    color:rgb(230, 162, 18);
+    min-height: 30px;
+    max-height: auto;
+    display: inline-flex !important;
+}
+
+.purchase-list .purchase-subroot-list .purchase-sublist:nth-child(2) > ul{
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+}
+
+.purchase-sub-subroot-list .purchase-data-list li:nth-child(1){
+    color : rgb(230, 162, 18) !important;
+    text-align: center;
+    padding: 0 !important;
+    line-height: 2;
+    max-height: 35px !important;
+}
+
+.purchase-sub-subroot-list .purchase-data-list li:nth-child(2){
+    color : #050005!important;
+    text-align: center;
+    padding: 3px !important;
+    line-height: 1;
+    max-height: 35px !important;
+    font-size: 15px;
+}
+
+
+
+@media (max-width : 480px){
+
+    .purchase-list .purchase-subroot-list .purchase-sublist:nth-child(2) > ul{
+
+        display: grid;
+        grid-template-columns: 50% 50% !important;
+        grid-template-rows: auto auto;
+    }
+
+}
+// ........................
+
+
+// Profile Menu box ......................
+
+.profile-menu-card{
+    position: relative;
+    width: 350px;   
+    max-width: 100% !important;    
+    height: auto !important;  
+    // background-color: #684005 !important;   
+    margin : auto !important;   
+    // margin-top : 120px;
+    border-radius: 0; 
+   
+}
+
+.profile-menu-card .card-header{
+    // min-height: 40px;
+    height: 40px;
+    text-align: center;
+ 
+    line-height: 2.4;
+    border-radius: 0;
+    font-weight: bold;
+ 
+}
+
+.profile-menu-card .card-body .list-group{
+    color : #195c9f !important;
+    border-radius: 0;
+     
+}
+
+.profile-menu-card .card-body .list-group > li{
+    background-color : white;
+    cursor :pointer;
+}
+
+.profile-menu-card .card-body .list-group > li > a{
+    text-decoration: none;
+    color : #195c9f !important;
+}
+
+
+.profile-menu-card .card-body .list-group .list-group-item:hover{
+    color : white !important;
+    background-color : #195c9f !important;;
+   
+}
+.profile-menu-card .card-body .list-group .list-group-item:hover   a{
+    color : white !important;
+}
+
+.collapse-menu-btn{
+    position: absolute;
+    top :0 ;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    outline: none;
+    border-style: solid;  
+    left : 0;
+    background-color: transparent !important;
+    z-index: -1;
+  
+}
+.collapse-menu-btn:active{
+    outline: none;
+}
+
+.profile-menu-card .card-body .list-group .list-group-item{
+    padding: 0px !important;
+}
+
+.profile-menu-card .card-body .list-group .list-group-item a{
+    display: block !important;
+     padding :15px;
+
+}
+
+@media (min-width : 770px){
+.profile-menu-card .card-body{
+    display: block !important;
+   
+}
+}
+ 
+
+@media (max-width : 769px)
+{
+    .profile-menu-card{
+        margin : 10px auto 10px auto !important;
+        top: 0 !important;
+        // padding : 0px;
+        max-width : 100% !important;
+        width : 100%;
+
+    }
+    .collapse-menu-btn{
+        z-index: 20;
+    }
+   
+}
+
+ 
+//..........................
+
+
+
+// Profile stats ................................... 
+
+
+.purchase-chart{
+    width : 100% !important;
+    height: auto !important;
+    max-height: 100%;
+    // background-color: #050005;
+    padding : 40px;
+}
+
+.purchase-chart .chart-1, .purchase-chart  .chart-2 {
+
+    min-width : 90% !important;
+    height: 350px !important;
+    min-height : 50% !important;
+    background-color: #181a1b ;
+    margin : 5px auto 5px auto;
+    padding : 10px !important;
+}
+
+.custom-tooltip{
+    background-color: #ffc107ef;
+    padding : 10px;
+}
+
+.recharts-legend-item-text{
+    background-color: transparent;
+}
+// .....................................
+
+ 
+
+
+// Profile setting ......................
+.profile-setting-card{
+  
+    background-color: #ffffff !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill-opacity= '1' stroke-opacity='0.4' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%2329ffff' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg  fill='%230328ff'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    box-shadow: 10px 10px 10px #6093f369 , -10px 10px 10px #6093f369 !important ;
+     
+}
+
+
+// .............................................
+
+
+
+// Account setting ..............................
+.account-password-card{
+    background-color: #ffffff !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill-opacity= '1' stroke-opacity='0.4' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%2329ffff' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg  fill='%230328ff'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    box-shadow: 10px 10px 10px #6093f369 , -10px 10px 10px #6093f369 ;
+
+
+}
+// ...........................................

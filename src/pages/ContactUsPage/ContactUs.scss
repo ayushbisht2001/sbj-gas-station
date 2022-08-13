@@ -1,0 +1,134 @@
+ .contact-container-fluid{
+    //  height: 100vh !important !;
+
+ }
+
+ .clipped-bg{
+    position: absolute !important;
+    left : 0;
+    top : 0;
+    // background: url('./petrolimg.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    // clip-path:   polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    clip-path: polygon(5% 0%,100% 0%,100% 100%,0% 100%,22% 65%);
+    background-color: #4c75a38a;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+ }
+.contactus-banner{
+
+    height: 200px;
+    width: 100%;
+    z-index: 100 !important;
+    background-color : transparent !important;
+    // background-color: rgba(225, 229, 233, 0.938) !important;
+    // background:  url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath opacity=".5" d="M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z"/%3E%3Cpath d="M6 5V0H5v5H0v1h5v94h1V6h94V5H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+    // clip-path: polygon(100% 0%,100% 51%,100% 100%,21% 100%,14% 68%,0% 0%); 
+    // clip-path: polygon(100% 0%,100% 51%,100% 100%,21% 100%,17% 72%,7% 0%);    
+    border-color: transparent !important;
+    overflow: hidden !important;
+    display: block;
+    }
+
+ 
+
+.right-card{
+    width: 100%;
+    height: 100%;
+    max-height: 100% !important;
+    background-color: #222121 !important;
+    padding: 10px ;
+    box-shadow : 10px 10px 10px rgba(100, 99, 99, 0.705);
+    opacity: 0.9;
+    .heading{
+        color: #fff;
+    }
+}
+.right-card ul{
+    margin : auto 20px;
+    display: flex;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    justify-content: flex-start;
+    // padding: auto 10px;
+    // align-items: center;
+}
+.right-card ul li{
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: auto 10px;
+}
+.right-card ul li div:nth-child(1) .fa{
+     transform-origin: center;
+     transform-box : fill-box;
+    transform: scale(2);
+}
+
+.right-card ul li div:nth-child(2) {
+    padding-left : 20px;
+} 
+.right-card ul li div:nth-child(2) h3 {
+    font-size : 25px;
+    font-weight: 900;
+    color: #007bff;
+} 
+
+.contact-right-area{
+
+    background-color: rgba(27, 149, 248, 0.425) !important;
+}
+
+.contact-left-card{
+    box-shadow : -10px 10px 10px rgba(100, 99, 99, 0.705);
+    background-color: rgba(185, 188, 189, 0.473);
+    // border-radius: 30px;
+    // box-shadow: 10px 10px 10px rgb(136, 209, 231) , -10px 10px 10px rgb(136, 209, 231);
+}
+
+
+.getintouch{
+    color: #fff;
+}
+@media (max-width : 500px) {
+
+    .right-card ul li div:nth-child(2) h3 {
+        font-size : 18px; 
+    }
+    .right-card ul li div:nth-child(1) .fa{
+        
+       transform: scale(1.4);
+   }
+   .right-card ul{
+    margin : auto 0px;
+    }
+   .right-card ul li{
+    padding-left : 0px !important;
+    }
+    
+}
+
+@media (max-width : 900px) {
+
+    .contact-right-area{
+
+        margin-top : 20px !important;
+        padding : 20px auto ;
+    }
+    .clipped-bg{
+        clip-path: polygon(100% 50%,100% 100%,50% 88%,0% 100%,0% 51%,48% 26%) !important;
+    }
+}
+
+@media (max-width : 700px) {
+    .contactus-banner{
+    
+    clip-path: none ;
+    background-color: transparent!important;
+    }
+    
+
+}
