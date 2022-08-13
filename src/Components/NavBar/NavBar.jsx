@@ -64,7 +64,7 @@ export function NavBar(props) {
     return (
         <>
         {/* Pricebar for petrol price */}
-        <Pricebar />
+        {/* <Pricebar /> */}
 
         {/* Main Navbar containing menu baar and login and logout */}
         <Navbar expanded={expanded}   expand="lg" sticky="top" className="navbar-parent">

@@ -1,5 +1,9 @@
 .navbar-parent{
-  background-color : #0074e1 !important;
+  background-color :#f8f9fa!important;
+
+  --link-color : black;
+  // --link-color : #0074e1;
+
 }
 
 :root{
@@ -7,14 +11,14 @@
 }
 
 .dropdown-menu .dropdown-item:hover > a {
-  color: white !important;
+  color: var(--link-color) !important;
  
 }
 .show .dropdown-item{
-  color: #0074e1 !important;
+  color: var(--link-color)!important;
 }
 .show .dropdown-item:hover{
-  color: #fff !important;
+  color: var(--link-color)!important;
 }
 .topStrip {
   display: inline-grid;
@@ -61,7 +65,7 @@
 }
 
 .topStrip a {
-  color: #595656;
+  color: white;
   text-decoration: none;
 }
 
@@ -71,7 +75,7 @@
   border-color: transparent !important;
 }
 .navbar-light .navbar-toggler-icon { 
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
    
 }
 
@@ -79,13 +83,13 @@
 
   // background-color: #343a40!important;
   // background-color: black !important;
-  border-color : #0074e1;
+  border-color : black;
   // padding : 5px !important;
 }
 .navbar-light .dropdown-menu .dropdown-item{
   // padding : 5px !important;
   a{
-    color: #0074e1;
+    color: #fff;
   }
   a:hover{
     color: #fff
@@ -93,15 +97,17 @@
 }
 .dropdown-item:focus, .dropdown-item:hover{
     text-decoration: none;
-    background-color: #0074e1 ;
+    background-color: #fff ;
 }
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #0074e1;
+  background-color: #fff;
 }
 .navbar .nav-link {
-  color: white !important;
+  // color: #0074e1 !important;
+  color: var(--link-color) !important;
+
   font-weight: 900;
   padding-left : 20px !important;
   transition: 0.4s ease ;
@@ -161,6 +167,7 @@
     position: absolute;
     bottom : 0;
     top: 14.6%;
+    border-radius: 10px;
     // left : calc( 130px + var(--pad-nav));
     // left: 125px;
     // left : calc(193px + 2 * var(--pad-nav)) !important;
@@ -169,7 +176,11 @@
     z-index: -1;
     background-color: #195c9f !important;
     transition: all 0.5s ease 0s;
+    --link-color : red;
+    opacity: 0.2;
   }
+
+ 
 
  .nav-left-section{
    margin-left : 95px;

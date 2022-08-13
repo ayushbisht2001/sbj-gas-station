@@ -29,26 +29,41 @@
     width : 100%;
     min-height: 300px;
     // background-color: #F9BC35;
-    background-color: #9cc3df54 ;
     // overflow: hidden !important;
+
+    .row-custom {
+        display: grid;
+        grid-template-columns: 73px calc(100% - 73px);
+        width: 100%;
+        height: 100%;
+        .col{
+            position: relative;
+        }
+        .col:nth-child(2){
+    background-color: #9cc3df54 ;
+
+        }
+
+        .col .wave{
+
+            position: absolute;
+            // bottom : 0;
+            // margin : 0;
+            height: 100%;
+            right: 0px;
+            // left : -79px;
+            // height: 100% !important;
+            // width: 100px !important;
+            // width: 100% !important;
+            // z-index: -4;
+            // transform: rotatez(270deg);
+        }
+
+    }
 }
 
 
-.wave{
-    position: absolute;
-    // bottom : 0;
-    // margin : 0;
-    height: 100%;
-    left : -79px;
-    // height: 100% !important;
-    width: 100px !important;
-    // width: 100% !important;
-    // z-index: -4;
-    // transform: rotatez(270deg);
-    
-
-
-}
+ 
 .wave g{
     position: relative;
     height: 100%;

@@ -30,7 +30,7 @@ export default function Home() {
             </Container> */}
             {/* <CarouselMid /> */}
 
-            <div className="container-fluid m-0 p-0 position-relative" style = {{ height : "90vh" , width : "100vw", overflow :"hidden"}}>    
+            <div className="container-fluid m-0 p-0 position-relative" style = {{ height : "90vh" , width : "100%", overflow :"hidden"}}>    
                 <Animate4 />
                 <div className='anime-box' >
                 <h2 >Shree Balajee</h2> 
@@ -48,7 +48,7 @@ export default function Home() {
             <Container >
                 <Services type={service}  />                
             </Container>
-            <div className="container-fluid  mt-5 mb-5" style={{background : "#9cc3df55"}}>
+            <div className="container-fluid  mt-5 mb-5" style={{background : "#9cc3df55", overflow : "hidden"}}>
             <Covid/>   
             </div>
              <Container>             
@@ -63,7 +63,7 @@ export default function Home() {
             
            
 
-            <Container>
+            <Container className = "overflow-hidden" >
                 <FAQ />
             </Container>
             <div className="container-fluid p-0 m-0">
